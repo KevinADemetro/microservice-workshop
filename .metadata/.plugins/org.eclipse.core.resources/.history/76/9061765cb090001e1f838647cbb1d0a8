@@ -1,0 +1,8 @@
+package br.com.kevin.models;
+
+public class CatalogItem {
+	
+	private String name;
+	private String desc;
+	private int rating;
+}

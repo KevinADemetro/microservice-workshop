@@ -1,0 +1,13 @@
+package br.com.kevin.resources;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import br.com.kevin.models.CatalogItem;
+
+@RestController
+public class MovieCatalogResource {
+	
+	public List<CatalogItem> getCatalog(String userId){
+		
+	}
+}
